@@ -32,11 +32,9 @@ import java.util.Scanner;
 public class Solution3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         int N = scanner.nextInt();
 
         int[] ai = new int[N];
-
 
         for (int i = 0; i < ai.length; i++) {
             ai[i] = scanner.nextInt();
@@ -47,7 +45,6 @@ public class Solution3 {
         for (int i = 0; i < ai.length; i++) {
             if (ai[i] == X) {
                 count++;
-
             } else if (ai[i] < X) {
                 count = i;
             }
