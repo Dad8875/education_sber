@@ -29,11 +29,10 @@ import java.util.Scanner;
  */
 public class Solution1 {
     public static void main(String[] args) {
-        int N = 0;
 
         Scanner scanner = new Scanner(System.in);
 
-        N = scanner.nextInt();
+        int N = scanner.nextInt();
 
         double[] ai = new double[N];
 
