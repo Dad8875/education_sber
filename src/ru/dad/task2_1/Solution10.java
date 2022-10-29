@@ -38,7 +38,7 @@ public class Solution10 {
                 System.out.println("Это число меньше загаданного.");
             } else if (number > M) {
                 System.out.println("Это число больше загаданного.");
-            } else if (number == M) {
+            } else {
                 System.out.println("Победа!");
                 break;
             }
