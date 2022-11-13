@@ -27,7 +27,11 @@ public class Student {
     public Student(String name, String surName, int[] grades) {
         this.name = name;
         this.surName = surName;
-        this.grades = grades;
+        if (grades.length <= 10) {
+            this.grades = grades;
+        } else {
+            System.out.println(" Не более 10-ти оценок!");
+        }
     }
 
     public String getName() {
