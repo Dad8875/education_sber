@@ -1,6 +1,5 @@
 package ru.dad.task2_2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -44,7 +43,6 @@ import java.util.Scanner;
 8 8 7
 4 5 6
 9 9 9
-
 
 Пример выходных данных
 Дарья: Добряш, 9.0
