@@ -20,10 +20,10 @@ package ru.dad.pm_3.pensum.task1;
 */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(isStringSequence("()()()"));
+        System.out.println(isBracketsSequence("()()()"));
     }
 
-    public static boolean isStringSequence(String s) {
+    public static boolean isBracketsSequence(String s) {
         char[] chars = s.toCharArray();
 
         int count = 0;
