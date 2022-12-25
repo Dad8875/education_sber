@@ -12,7 +12,6 @@ import java.util.List;
 public class Task2 {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 2, 3, 4, 5, 6);
-        int result = list.stream().mapToInt(Integer::intValue).reduce(1, (a, b) -> a * b);
-        System.out.println(result);
+        System.out.println(list.stream().reduce(1, (a, b) -> a * b));
     }
 }
