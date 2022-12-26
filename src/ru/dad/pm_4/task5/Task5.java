@@ -13,7 +13,6 @@ public class Task5 {
         List<String> list = List.of("cat", "java", "dog", "piper", "stack");
         list.stream()
                 .map(String::toUpperCase)
-                .collect(Collectors.toList())
                 .forEach(s -> {
                     if (s.equalsIgnoreCase(list.get(list.size() - 1))) {
                         System.out.print(s + ".");
