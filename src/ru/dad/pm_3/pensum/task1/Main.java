@@ -27,11 +27,11 @@ public class Main {
         char[] chars = s.toCharArray();
 
         int count = 0;
-        for (int i = 0; i < chars.length; i++) {
+        for (char aChar : chars) {
             if (chars[0] != '(' && chars[chars.length - 1] != ')') {
                 return false;
             }
-            if (chars[i] == '(') {
+            if (aChar == '(') {
                 count++;
             } else {
                 count--;
