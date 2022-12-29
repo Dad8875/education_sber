@@ -1,7 +1,6 @@
 package ru.dad.pm_4.task5;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 /*
 5. На вход подается список непустых строк. Необходимо привести все символы строк к
