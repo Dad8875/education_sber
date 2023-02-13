@@ -26,7 +26,7 @@ public class FormValidator {
         try {
             FormValidator.checkName("Александр");
             FormValidator.checkBirthDate("1995.07.16");
-            FormValidator.checkHeight("1.84");
+            FormValidator.checkHeight("1.83");
             FormValidator.checkGender("male");
         } catch (Exception e) {
             e.printStackTrace();
